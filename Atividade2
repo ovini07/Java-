@@ -1,0 +1,26 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class ativ2 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	String periodo;
+	System.out.print("Informe o turno em que você estuda (M=manhã/V=Vespertino/N=Noturno): ");
+	periodo = ler.next();
+	if (periodo.equals("M")) {
+        System.out.println(" Bom Dia! ");
+	}
+    else if (periodo.equals("V")) {
+			System.out.println("Boa Tarde!");
+        }
+    else if (periodo.equals("N")) {
+		System.out.println("Boa Noite!");
+    }
+    else {
+		System.out.println (" Valor inválido!");
+	}
+	}
+	}
+
