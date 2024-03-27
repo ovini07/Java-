@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class ativ3 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int valor1,valor2,valor3;
+		System.out.print("Informe o valor1: ");
+		valor1 = ler.nextInt();
+		System.out.print("Informe o valor2: ");
+		valor2 = ler.nextInt();
+		System.out.print("Informe o valor3: ");
+		valor3 = ler.nextInt();
+		
+		if (valor1 >= valor2 && valor1 >= valor3) {
+	    System.out.println("O valor1 é o maior!  ");
+		
+		}
+		else if (valor2 >= valor1 && valor2 >= valor3) {
+		    System.out.println("O valor2 é o maior! ");
+			
+			}
+		else   {
+		    System.out.println("O valor3 é o maior!  ");
+			
+			}
+		if (valor1 <= valor2 && valor1 <= valor3) {
+		    System.out.println("O valor1 é o menor!  ");
+			
+			}
+			else if (valor2 <= valor1 && valor2 <= valor3) {
+			    System.out.println("O valor2 é o menor! ");
+				
+				}
+			else   {
+			    System.out.println("O valor3 é o menor!  ");
+				
+				}
+
+	}
+
+}
